@@ -102,5 +102,41 @@
 }
 
 .ex-11-icon:hover {
-  animation: 2s linear 0s 1 alternate backwards running partial-rotate;
+  animation: 2s linear 0s 1 partial-rotate;
+}
+
+@keyframes es-12-top {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(180%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes es-12-bottom {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-150%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: 3s es-12-top;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: 3s es-12-bottom;
 }
