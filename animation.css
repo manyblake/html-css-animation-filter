@@ -62,3 +62,13 @@
   filter: sepia(1);
   border-radius: 16px;
 }
+
+.ex-9-img {
+  transition: transform 1s linear, border-radius 1s linear, filter 1s linear;
+}
+
+.ex-9-img:hover {
+  transform: scale(150%);
+  border-radius: 16px;
+  filter: sepia(1);
+}
