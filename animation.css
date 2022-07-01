@@ -53,3 +53,12 @@
 .ex-7-img:hover {
   filter: sepia(1);
 }
+
+.ex-8-img {
+  transition: filter 1s linear, border-radius 1s linear;
+}
+
+.ex-8-img:hover {
+  filter: sepia(1);
+  border-radius: 16px;
+}
