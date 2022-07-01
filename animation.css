@@ -140,3 +140,63 @@
 .ex-12-button:hover .ex-12-bottom-white {
   animation: 3s es-12-bottom;
 }
+
+@keyframes es-13-top {
+  0% {
+    transform: translateX(0);
+  }
+
+  36% {
+    transform: translateX(200%);
+  }
+
+  48% {
+    transform: translate(200%, 300%);
+  }
+
+  84% {
+    transform: translate(-75%, 300%);
+  }
+
+  96% {
+    transform: translate(-75%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes es-13-bottom {
+  0% {
+    transform: translateX(0);
+  }
+
+  36% {
+    transform: translateX(-175%);
+  }
+
+  48% {
+    transform: translate(-175%, -300%);
+  }
+
+  84% {
+    transform: translate(100%, -300%);
+  }
+
+  96% {
+    transform: translate(100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: 3s es-13-top;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: 3s es-13-bottom;
+}
