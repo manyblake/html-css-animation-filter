@@ -72,3 +72,17 @@
   border-radius: 16px;
   filter: sepia(1);
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ex-10-icon {
+  animation: 2s linear 0s infinite normal none running rotate;
+}
